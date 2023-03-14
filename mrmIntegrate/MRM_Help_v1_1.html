@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>MRM Help</title>
+
+<style>
+p.sansserif {
+	font-family: Corbel, sans-serif;
+}
+
+h2.sansserif {
+	font-family: Corbel, sans-serif;
+	font-size: 17px;
+}
+</style>
+</head>
+
+<body>
+<h2 class="sansserif">GENERAL REMARKS</h2>
+<p class="sansserif">...</p>
+
+<h2 class="sansserif">LOAD SAMPLES</h2>
+<p class="sansserif">Before loading samples, the.raw files need to be converted to .txt files. This is done using the application <b>MSConvert</b> included in the <b>ProteoWizard</b> package, <a href="http://proteowizard.sourceforge.net/index.shtml"> which can be downloaded here</a>. Load samples using the File menu. Note that you can only load samples which have exactly the same transitions, meaning that it is not possible to integrate samples run with different methods simultaneously. Be careful to remove eventual files containing washes or similar.</p>
+
+<h2 class="sansserif">INTEGRATE</h2>
+<p class="sansserif">Integrate peaks by clicking the <b>Integrate</b> button, and then clicking on the chromatogram twice. Place the cursor on the point where you want to begin the integration, click, and place the cursor on the point where you want the integration to end, click.</p>
+
+<img src="Figures/Integrate.png">
+
+<h2 class="sansserif">ALIGN</h2>
+<p class="sansserif">Alignment is useful for cases when there is RT drift during the run, or when integrating data collected at different times.
+
+Align chromatograms by clicking the <b>Align</b> button, and thereafter choosing start and end point for the alignment window. Note that the function aligns the peaks with the highest point placed in the centre, thus peaks that are double, split or jagged, will be problematic to align well.</p>
+
+<img src="Figures/Align.png">
+
+
+<h2 class="sansserif">RELOAD DATA</h2>
+<p class="sansserif">If an alignment failed, the data can be reloaded by clicking <b>Reload Data</b>. It will load the non-aligned chromatograms.</p>
+
+</body>
+</html> 
